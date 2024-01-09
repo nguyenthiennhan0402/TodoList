@@ -14,6 +14,7 @@ void main() async{
         Provider<TodoBloc>.value(value: TodoBloc()),
       ],
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'TODO App',
         theme: ThemeData(
           primarySwatch: Colors.blue,
